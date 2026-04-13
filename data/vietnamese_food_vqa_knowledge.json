@@ -64,12 +64,7 @@
         "nhom": "Bánh (Dạng sợi)",
         "mo_ta": "Món bánh có màu vàng nâu, mềm và dai. Hương vị đặc trưng của cà ri, kết hợp với các loại gia vị và nguyên liệu khác tạo nên một hương vị phong phú.",
         "vung_mien": "Bánh tằm cà ri phổ biến nhất tại khu vực miền Tây Nam Bộ, đặc biệt là ở tỉnh An Giang.",
-        "thanh_phan_chinh": [
-            "Gạo nếp",
-            "Cà ri",
-            "Gia vị",
-            "Rau sống"
-        ],
+        "thanh_phan_chinh": ["Gạo nếp", "Cà ri", "Gia vị", "Rau sống"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Chuẩn bị nguyên liệu",
@@ -128,12 +123,7 @@
         "nhom": "Bún",
         "mo_ta": "Món bún bung có hương vị đặc trưng với nước dùng đậm đà, thịt bự thơm ngon.",
         "vung_mien": "Đồng bằng sông Cửu Long",
-        "thanh_phan_chinh": [
-            "Bún",
-            "Thịt bự",
-            "Rau sống",
-            "Nước dùng"
-        ],
+        "thanh_phan_chinh": ["Bún", "Thịt bự", "Rau sống", "Nước dùng"],
         "phuong_phap_che_bien": "Nấu",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế nguyên liệu, cắt thịt bự thành miếng nhỏ.",
@@ -183,12 +173,7 @@
         "nhom": "Bún",
         "mo_ta": "Món bún truyền thống của người Việt Nam, có hương vị đặc trưng từ thịt nướng và nước mắm.",
         "vung_mien": "Hà Nội",
-        "thanh_phan_chinh": [
-            "Bún",
-            "Chả nướng",
-            "Nước mắm",
-            "Rau sống"
-        ],
+        "thanh_phan_chinh": ["Bún", "Chả nướng", "Nước mắm", "Rau sống"],
         "phuong_phap_che_bien": "Nướng",
         "cac_buoc_nau": [
             "Bước 1: Chuẩn bị nguyên liệu",
@@ -209,12 +194,7 @@
         "nhom": "Bún",
         "mo_ta": "Món bún măng vịt có hương vị đặc trưng từ vịt được xào mềm, măng tây xanh và nước dùng đậm đà.",
         "vung_mien": "Bún măng vịt là món ăn phổ biến ở miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Vịt",
-            "Măng tây",
-            "Bún",
-            "Rau sống"
-        ],
+        "thanh_phan_chinh": ["Vịt", "Măng tây", "Bún", "Rau sống"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch vịt và măng tây, sau đó xào mềm vịt và măng tây.",
@@ -235,11 +215,7 @@
         "nhom": "Bún",
         "mo_ta": "Món bún đặc trưng của miền Bắc, có hương vị ngọt ngào của cá và vị tươi mát của rau.",
         "vung_mien": "Nơi phổ biến nhất là Hà Nội và các tỉnh miền Bắc.",
-        "thanh_phan_chinh": [
-            "Bún gạo",
-            "Chả cá",
-            "Rau sống"
-        ],
+        "thanh_phan_chinh": ["Bún gạo", "Chả cá", "Rau sống"],
         "phuong_phap_che_bien": "Hấp/Rán",
         "cac_buoc_nau": [
             "Bước 1: Chuẩn bị nguyên liệu, gồm bún, chả cá, rau sống và gia vị.",
@@ -319,14 +295,7 @@
         "nhom": "Bún",
         "mo_ta": "Món ăn đặc trưng mang hương vị của miền Nam, với nước mắm được pha chế từ cá mắm, đường, ớt, tỏi và các loại gia vị khác, tạo nên hương vị đậm đà, thơm ngon.",
         "vung_mien": "Bún mắm là món ăn phổ biến nhất ở miền Nam, đặc biệt là ở thành phố Cần Thơ và tỉnh Kiên Giang.",
-        "thanh_phan_chinh": [
-            "Bún",
-            "Nước mắm",
-            "Tỏi",
-            "Ớt",
-            "Đường",
-            "Gia vị"
-        ],
+        "thanh_phan_chinh": ["Bún", "Nước mắm", "Tỏi", "Ớt", "Đường", "Gia vị"],
         "phuong_phap_che_bien": "Nấu",
         "cac_buoc_nau": [
             "Nấu nước mắm",
@@ -348,10 +317,7 @@
         "nhom": "Bún",
         "mo_ta": "Món bún mọc có hương vị đặc trưng từ nước dùng và nhân mọc, thường được làm từ thịt lợn xay và các loại rau củ.",
         "vung_mien": "Bún mọc phổ biến ở miền Bắc Việt Nam, đặc biệt là ở Hà Nội.",
-        "thanh_phan_chinh": [
-            "Bún",
-            "Mọc (thịt lợn xay và rau củ)"
-        ],
+        "thanh_phan_chinh": ["Bún", "Mọc (thịt lợn xay và rau củ)"],
         "phuong_phap_che_bien": "Bún mọc thường được nấu bằng phương pháp luộc hoặc hấp.",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch bún và mọc.",
@@ -457,12 +423,7 @@
         "nhom": "Bún",
         "mo_ta": "Món bún truyền thống của người Hà Nội, có hương vị đặc trưng từ các nguyên liệu như gà xé, chả lụa, và nước dùng được ninh từ xương.",
         "vung_mien": "Hà Nội",
-        "thanh_phan_chinh": [
-            "Gà xé",
-            "Chả lụa",
-            "Nước dùng",
-            "Rau sống"
-        ],
+        "thanh_phan_chinh": ["Gà xé", "Chả lụa", "Nước dùng", "Rau sống"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Chuẩn bị nguyên liệu, gồm gà xé, chả lụa, rau sống và nước dùng.",
@@ -483,11 +444,7 @@
         "nhom": "Mì, Hủ tiếu & Cao lầu",
         "mo_ta": "Cao lầu là món mì có nguồn gốc từ Hội An, Quảng Nam. Hương vị đặc trưng của món này là sự kết hợp giữa vị ngọt của nước hầm xương và vị béo của dầu ăn.",
         "vung_mien": "Cao lầu phổ biến nhất ở Hội An, Quảng Nam.",
-        "thanh_phan_chinh": [
-            "Mì Cao Lầu",
-            "Thịt heo quay",
-            "Rau sống"
-        ],
+        "thanh_phan_chinh": ["Mì Cao Lầu", "Thịt heo quay", "Rau sống"],
         "phuong_phap_che_bien": "Nấu bằng nước hầm xương và dầu ăn.",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế nguyên liệu.",
@@ -540,13 +497,7 @@
         "nhom": "Mì, Hủ tiếu & Cao lầu",
         "mo_ta": "Mì Quảng có hương vị đặc trưng với sự kết hợp của thịt heo, tôm, trứng, và các loại gia vị như tiêu, ớt, và rau thơm. Món này thường được phục vụ nóng với nước dùng đậm đà.",
         "vung_mien": "Quảng Nam, Quảng Ngãi",
-        "thanh_phan_chinh": [
-            "Mì",
-            "Thịt heo",
-            "Tôm",
-            "Trứng",
-            "Rau thơm"
-        ],
+        "thanh_phan_chinh": ["Mì", "Thịt heo", "Tôm", "Trứng", "Rau thơm"],
         "phuong_phap_che_bien": "Hấp/Rán",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế nguyên liệu, rửa sạch thịt heo, tôm, trứng, và rau thơm.",
@@ -630,10 +581,7 @@
         "nhom": "Miến",
         "mo_ta": "Miến lươn có hương vị đặc trưng từ thịt lươn và miến, thường được nấu bằng nước dùng ngọt và có vị mặn mòi. Món này thường được phục vụ nóng và kèm với nước mắm, chanh, ớt và rau thơm.",
         "vung_mien": "Miến lươn phổ biến nhất ở vùng đồng bằng Bắc Bộ, đặc biệt là tại Hà Nội và các tỉnh lân cận.",
-        "thanh_phan_chinh": [
-            "Thịt lươn",
-            "Miến"
-        ],
+        "thanh_phan_chinh": ["Thịt lươn", "Miến"],
         "phuong_phap_che_bien": "Hấp/Luộc",
         "cac_buoc_nau": [
             "Sơ chế lươn, rửa sạch và thái thành miếng vừa ăn.",
@@ -717,13 +665,7 @@
         "nhom": "Cơm",
         "mo_ta": "Món cơm bụi là loại cơm được nấu bằng cách xào với mỡ heo và nước mắm, tạo nên hương vị đặc trưng, đậm đà.",
         "vung_mien": "Cơm bụi phổ biến ở miền Trung, đặc biệt là ở tỉnh Quảng Bình.",
-        "thanh_phan_chinh": [
-            "Cơm trắng",
-            "Mỡ heo",
-            "Nước mắm",
-            "Tỏi",
-            "Hành"
-        ],
+        "thanh_phan_chinh": ["Cơm trắng", "Mỡ heo", "Nước mắm", "Tỏi", "Hành"],
         "phuong_phap_che_bien": "Xào",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế nguyên liệu, cắt nhỏ hành và tỏi.",
@@ -744,13 +686,7 @@
         "nhom": "Cơm",
         "mo_ta": "Cơm cháy Ninh Bình là món cơm cháy được chiên giòn, có hương vị đặc trưng của Ninh Bình, với mùi thơm của gạo và mỡ lợn.",
         "vung_mien": "Ninh Bình",
-        "thanh_phan_chinh": [
-            "Gạo",
-            "Mỡ lợn",
-            "Nước mắm",
-            "Tỏi",
-            " Ớt"
-        ],
+        "thanh_phan_chinh": ["Gạo", "Mỡ lợn", "Nước mắm", "Tỏi", " Ớt"],
         "phuong_phap_che_bien": "Chiên",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế nguyên liệu",
@@ -771,10 +707,7 @@
         "nhom": "Cơm",
         "mo_ta": "Món ăn dân dã, hương vị đặc trưng của vùng biển.",
         "vung_mien": "Phổ biến nhất ở miền Trung, đặc biệt là thành phố Huế.",
-        "thanh_phan_chinh": [
-            "Hến",
-            "Cơm trắng"
-        ],
+        "thanh_phan_chinh": ["Hến", "Cơm trắng"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Rửa sạch hến, lấy nước để nấu.",
@@ -796,10 +729,7 @@
         "nhom": "Cơm",
         "mo_ta": "Món cơm gà Quảng Nam là một món ăn đặc trưng của vùng Quảng Nam, có hương vị đặc trưng của gà và cơm.",
         "vung_mien": "Quảng Nam",
-        "thanh_phan_chinh": [
-            "Gạo lứt",
-            "Gà nướng"
-        ],
+        "thanh_phan_chinh": ["Gạo lứt", "Gà nướng"],
         "phuong_phap_che_bien": "Nướng",
         "cac_buoc_nau": [
             "Rửa sạch gà và ướp gia vị.",
@@ -845,12 +775,7 @@
         "nhom": "Cơm",
         "mo_ta": "Cơm nắm có hương vị đặc trưng của gạo nếp và thịt lợn, thường được nấu bằng phương pháp hấp hoặc luộc.",
         "vung_mien": "Cơm nắm phổ biến nhất ở miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Gạo nếp",
-            "Thịt lợn",
-            "Rau mùi",
-            "Rau mùi tàu"
-        ],
+        "thanh_phan_chinh": ["Gạo nếp", "Thịt lợn", "Rau mùi", "Rau mùi tàu"],
         "phuong_phap_che_bien": "Hấp hoặc luộc.",
         "cac_buoc_nau": [
             "Rửa sạch gạo nếp và thịt lợn.",
@@ -966,10 +891,7 @@
         "nhom": "Cơm",
         "mo_ta": "Cơm trắng là món cơm được nấu từ gạo trắng, có hương vị nhẹ nhàng và mềm mại. Món ăn này thường được phục vụ kèm với các món ăn khác như thịt, rau, trứng, và các loại nước chấm.",
         "vung_mien": "Cơm trắng là món ăn phổ biến ở hầu hết các vùng miền của Việt Nam.",
-        "thanh_phan_chinh": [
-            "Gạo trắng",
-            "Nước"
-        ],
+        "thanh_phan_chinh": ["Gạo trắng", "Nước"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch gạo trắng và ngâm trong nước khoảng 30 phút.",
@@ -1046,13 +968,7 @@
         "nhom": "Món thường ngày (Món mặn, xào, canh)",
         "mo_ta": "Cá khô có hương vị đặc trưng, thường được làm từ cá tươi, được phơi khô dưới ánh nắng mặt trời. Khi ăn, hương vị của cá khô thường được kết hợp với các gia vị như muối, tiêu, ớt,...",
         "vung_mien": "Cá khô là món ăn phổ biến ở miền Trung Việt Nam, đặc biệt là ở các tỉnh Quảng Bình, Quảng Trị, Thừa Thiên Huế.",
-        "thanh_phan_chinh": [
-            "Cá tươi",
-            "Muối",
-            "Tiêu",
-            "Ớt",
-            "Gia vị"
-        ],
+        "thanh_phan_chinh": ["Cá tươi", "Muối", "Tiêu", "Ớt", "Gia vị"],
         "phuong_phap_che_bien": "Hấp/Rán/Luộc/Nướng/Kho/Xào...",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế cá tươi, rửa sạch và cắt thành các miếng nhỏ.",
@@ -1101,10 +1017,7 @@
         "nhom": "Món thường ngày (Món mặn, xào, canh)",
         "mo_ta": "Dồi có hương vị đặc trưng, thường được chế biến từ thịt lợn, có vị mặn và giòn.",
         "vung_mien": "Dồi phổ biến nhất ở miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "thịt lợn",
-            "gạo"
-        ],
+        "thanh_phan_chinh": ["thịt lợn", "gạo"],
         "phuong_phap_che_bien": "Dồi thường được hấp, rán, luộc, nướng hoặc kho.",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế thịt lợn và gạo.",
@@ -1125,13 +1038,7 @@
         "nhom": "Món thường ngày (Món mặn, xào, canh)",
         "mo_ta": "Món dưa muối có vị chua thanh, dịu nhẹ, thường được phục vụ như một món ăn phụ trong bữa cơm gia đình.",
         "vung_mien": "Dưa muối là món ăn phổ biến ở miền Nam Việt Nam.",
-        "thanh_phan_chinh": [
-            "Dưa chuột",
-            "Nước mắm",
-            "Tỏi",
-            "Hành",
-            "Gia vị"
-        ],
+        "thanh_phan_chinh": ["Dưa chuột", "Nước mắm", "Tỏi", "Hành", "Gia vị"],
         "phuong_phap_che_bien": "Chế biến dưa muối thông thường là muối và ngâm trong nước mắm.",
         "cac_buoc_nau": [
             "Sơ chế nguyên liệu, rửa sạch và thái dưa chuột thành miếng nhỏ.",
@@ -1152,11 +1059,7 @@
         "nhom": "Món thường ngày (Món mặn, xào, canh)",
         "mo_ta": "Giò là món ăn truyền thống của Việt Nam, có hương vị đặc trưng của thịt heo, tỏi và gia vị. Món này thường được ăn kèm với rau sống và nước chấm.",
         "vung_mien": "Giò phổ biến nhất ở miền Trung và miền Nam Việt Nam.",
-        "thanh_phan_chinh": [
-            "Thịt heo",
-            "Tỏi",
-            "Gia vị"
-        ],
+        "thanh_phan_chinh": ["Thịt heo", "Tỏi", "Gia vị"],
         "phuong_phap_che_bien": "Hấp/Rán",
         "cac_buoc_nau": [
             "Bước 1: Trộn thịt heo với tỏi, gia vị và một số nguyên liệu khác.",
@@ -1413,12 +1316,7 @@
         "nhom": "Xôi",
         "mo_ta": "Món ăn truyền thống của Việt Nam, có hương vị đặc trưng của gạo nếp và dầu chiên.",
         "vung_mien": "Phổ biến nhất tại miền Bắc, đặc biệt là tại Hà Nội.",
-        "thanh_phan_chinh": [
-            "Gạo nếp",
-            "Dầu thực vật",
-            "Muối",
-            "Mỡ lợn"
-        ],
+        "thanh_phan_chinh": ["Gạo nếp", "Dầu thực vật", "Muối", "Mỡ lợn"],
         "phuong_phap_che_bien": "Rán",
         "cac_buoc_nau": [
             "Rửa sạch gạo nếp và ngâm vào nước trong khoảng 4-5 giờ.",
@@ -1441,10 +1339,7 @@
         "nhom": "Xôi",
         "mo_ta": "Xôi đỗ xanh có hương vị đặc trưng từ đậu xanh và cơm nếp được nấu chín mềm. Hương vị này được tạo nên bởi sự kết hợp giữa đậu xanh đã được nấu chín và cơm nếp được hấp chín mềm.",
         "vung_mien": "Xôi đỗ xanh phổ biến nhất ở miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Cơm nếp",
-            "Đậu xanh"
-        ],
+        "thanh_phan_chinh": ["Cơm nếp", "Đậu xanh"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Rửa sạch đậu xanh và ngâm trong nước khoảng 4-5 giờ.",
@@ -1467,13 +1362,7 @@
         "nhom": "Xôi",
         "mo_ta": "Xôi gà là món ăn truyền thống của người Việt Nam, có hương vị đặc trưng từ thịt gà và cơm xôi mềm mại.",
         "vung_mien": "Xôi gà phổ biến nhất ở miền Bắc, đặc biệt là tại Hà Nội.",
-        "thanh_phan_chinh": [
-            "Gà",
-            "Cơm xôi",
-            "Nước mắm",
-            "Hành lá",
-            "Tỏi"
-        ],
+        "thanh_phan_chinh": ["Gà", "Cơm xôi", "Nước mắm", "Hành lá", "Tỏi"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Rửa sạch gà, ướp với nước mắm, hành lá, tỏi.",
@@ -1495,14 +1384,7 @@
         "nhom": "Xôi",
         "mo_ta": "Món xôi truyền thống của Việt Nam, được làm từ gạo nếp và gấc, tạo nên hương vị đặc trưng và màu sắc đẹp mắt.",
         "vung_mien": "Xôi gấc phổ biến nhất ở miền Bắc Việt Nam, đặc biệt là ở các tỉnh như Hà Nội, Hải Dương, Hưng Yên.",
-        "thanh_phan_chinh": [
-            "Gạo nếp",
-            "Gấc",
-            "Dầu ăn",
-            "Mỡ",
-            "Muối",
-            "Đường"
-        ],
+        "thanh_phan_chinh": ["Gạo nếp", "Gấc", "Dầu ăn", "Mỡ", "Muối", "Đường"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Làm sạch gạo nếp và ngâm nước cho mềm.",
@@ -1524,10 +1406,7 @@
         "nhom": "Xôi",
         "mo_ta": "Món xôi ngon, hấp dẫn với màu tím sặc sỡ và hương thơm đặc trưng của lá cẩm. Xôi lá cẩm có vị bùi béo, thơm của gạo nếp và vị ngọt nhẹ của lá cẩm.",
         "vung_mien": "Xôi lá cẩm là món ăn truyền thống của người Việt Nam, phổ biến nhất ở miền Bắc.",
-        "thanh_phan_chinh": [
-            "Gạo nếp",
-            "Lá cẩm"
-        ],
+        "thanh_phan_chinh": ["Gạo nếp", "Lá cẩm"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Rửa sạch gạo nếp và lá cẩm.",
@@ -1646,12 +1525,7 @@
         "nhom": "Xôi",
         "mo_ta": "Món xôi trắng có hương vị nhẹ nhàng, mềm mại, thường được ăn kèm với các loại nước chấm hoặc rau củ.",
         "vung_mien": "Món xôi trắng phổ biến nhất ở miền Bắc Việt Nam, đặc biệt là tại các tỉnh phía Bắc.",
-        "thanh_phan_chinh": [
-            "Gạo nếp trắng",
-            "Nước",
-            "Mỡ lợn",
-            "Mẻ"
-        ],
+        "thanh_phan_chinh": ["Gạo nếp trắng", "Nước", "Mỡ lợn", "Mẻ"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch gạo nếp trắng và ngâm trong nước khoảng 4-5 giờ.",
@@ -1700,12 +1574,7 @@
         "nhom": "Xôi",
         "mo_ta": "Xôi xéo là một món xôi truyền thống của Việt Nam, có vị ngọt và béo nhờ được nấu với lá dứa và nước cốt dừa.",
         "vung_mien": "Xôi xéo phổ biến nhất ở khu vực Bắc Bộ, đặc biệt là ở Hà Nội.",
-        "thanh_phan_chinh": [
-            "Gạo nếp",
-            "Nước cốt dừa",
-            "Lá dứa",
-            "Đường"
-        ],
+        "thanh_phan_chinh": ["Gạo nếp", "Nước cốt dừa", "Lá dứa", "Đường"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch gạo nếp và ngâm trong nước khoảng 4-5 giờ.",
@@ -1757,12 +1626,7 @@
         "nhom": "Dạng lỏng (Cháo, Súp, Lẩu, Canh)",
         "mo_ta": "Món cháo trắng đơn giản với vị thơm của gạo lứt, nước dùng thanh nhẹ, thường được phục vụ nóng.",
         "vung_mien": "Cháo trắng phổ biến nhất tại miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Gạo lứt",
-            "Nước dùng",
-            "Mỡ lợn",
-            "Rau mùi"
-        ],
+        "thanh_phan_chinh": ["Gạo lứt", "Nước dùng", "Mỡ lợn", "Rau mùi"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Rửa sạch gạo lứt, ngâm nước khoảng 4-5 tiếng trước khi nấu.",
@@ -1783,13 +1647,7 @@
         "nhom": "Dạng lỏng (Cháo, Súp, Lẩu, Canh)",
         "mo_ta": "Lẩu là món ăn đặc trưng của Việt Nam, được nấu từ thịt, cá, tôm, hoặc rau củ, thường được ăn kèm với bánh mì, cơm, hoặc rau sống. Hương vị đặc trưng của lẩu là nóng, đậm đà, và có vị ngọt từ nước dùng.",
         "vung_mien": "Lẩu phổ biến nhất tại miền Bắc Việt Nam, nơi có nhiều món lẩu truyền thống như lẩu bò, lẩu cá, và lẩu gà.",
-        "thanh_phan_chinh": [
-            "Thịt bò",
-            "Cá",
-            "Tôm",
-            "Rau củ",
-            "Nước dùng"
-        ],
+        "thanh_phan_chinh": ["Thịt bò", "Cá", "Tôm", "Rau củ", "Nước dùng"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Chuẩn bị nguyên liệu, bao gồm thịt, cá, tôm, rau củ, và nước dùng.",
@@ -1810,11 +1668,7 @@
         "nhom": "Dạng lỏng (Cháo, Súp, Lẩu, Canh)",
         "mo_ta": "Mướp đắng nhồi thịt có vị đắng nhẹ, kết hợp với thịt và gia vị tạo nên hương vị đặc trưng.",
         "vung_mien": "Món ăn này phổ biến nhất ở miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Mướp đắng",
-            "Thịt heo xay",
-            "Gia vị"
-        ],
+        "thanh_phan_chinh": ["Mướp đắng", "Thịt heo xay", "Gia vị"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch mướp đắng và thái thành từng miếng nhỏ.",
@@ -1835,11 +1689,7 @@
         "nhom": "Dạng lỏng (Cháo, Súp, Lẩu, Canh)",
         "mo_ta": "Món ốc nấu chuối đậu có hương vị đặc trưng, kết hợp giữa vị béo ngậy của ốc, vị ngọt của chuối và vị béo của đậu.",
         "vung_mien": "Món này phổ biến nhất ở vùng Bắc Bộ, đặc biệt là tại Hà Nội và các tỉnh lân cận.",
-        "thanh_phan_chinh": [
-            "Ốc",
-            "Chuối",
-            "Đậu hũ"
-        ],
+        "thanh_phan_chinh": ["Ốc", "Chuối", "Đậu hũ"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch ốc, sau đó ướp với nước mắm, muối, đường và các gia vị khác.",
@@ -1862,14 +1712,7 @@
         "nhom": "Dạng lỏng (Cháo, Súp, Lẩu, Canh)",
         "mo_ta": "Súp cua có hương vị đặc trưng của cua, với vị ngọt và thơm của thịt cua, cùng với vị béo của sữa và trứng.",
         "vung_mien": "Súp cua phổ biến nhất ở miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Cua",
-            "Sữa",
-            "Trứng",
-            "Hành",
-            "Gừng",
-            "Rau mùi"
-        ],
+        "thanh_phan_chinh": ["Cua", "Sữa", "Trứng", "Hành", "Gừng", "Rau mùi"],
         "phuong_phap_che_bien": "Súp cua thường được nấu bằng phương pháp hấp hoặc luộc.",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch cua và cắt thành từng miếng nhỏ.",
@@ -1890,13 +1733,7 @@
         "nhom": "Dạng lỏng (Cháo, Súp, Lẩu, Canh)",
         "mo_ta": "Món súp yến có hương vị đặc trưng bởi sự kết hợp giữa vị ngọt của yến sào và vị đậm đà của gia vị.",
         "vung_mien": "Súp yến là món ăn truyền thống của người Việt Nam, phổ biến nhất tại các tỉnh miền Trung như Quảng Bình, Quảng Trị, Thừa Thiên Huế.",
-        "thanh_phan_chinh": [
-            "yến sào",
-            "cà rốt",
-            "hành tây",
-            "gừng",
-            "tiêu"
-        ],
+        "thanh_phan_chinh": ["yến sào", "cà rốt", "hành tây", "gừng", "tiêu"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Rửa sạch yến sào, cà rốt, hành tây, gừng, tiêu.",
@@ -2150,11 +1987,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Bánh bá trạng có hương vị đặc trưng từ các nguyên liệu như thịt heo, tôm, và các loại gia vị khác nhau.",
         "vung_mien": "Bánh bá trạng phổ biến nhất ở miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Thịt heo xay",
-            "Tôm",
-            "Gia vị"
-        ],
+        "thanh_phan_chinh": ["Thịt heo xay", "Tôm", "Gia vị"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Trộn đều thịt heo xay, tôm, và gia vị.",
@@ -2175,10 +2008,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Bánh bao là một loại bánh mặn truyền thống của Việt Nam, có vỏ làm từ bột mì và nhân thịt heo hoặc gà. Món này có hương vị đặc trưng bởi sự kết hợp giữa vị béo của thịt và vị thơm của bột mì.",
         "vung_mien": "Bánh bao phổ biến nhất ở miền Bắc Việt Nam, đặc biệt là ở Hà Nội.",
-        "thanh_phan_chinh": [
-            "Vỏ bánh làm từ bột mì",
-            "Nhân thịt heo hoặc gà"
-        ],
+        "thanh_phan_chinh": ["Vỏ bánh làm từ bột mì", "Nhân thịt heo hoặc gà"],
         "phuong_phap_che_bien": "Hấp/Rán/Luộc/Nướng/Kho/Xào",
         "cac_buoc_nau": [
             "Bước 1: Trộn bột mì với nước để tạo hỗn hợp bột.",
@@ -2199,12 +2029,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Món bánh mặn được làm từ bột gạo, thường được thưởng thức kèm với nước mắm hoặc xì dầu.",
         "vung_mien": "Bánh tiêu phổ biến nhất ở miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Bột gạo",
-            "Nước mắm",
-            "Xì dầu",
-            "Rau sống"
-        ],
+        "thanh_phan_chinh": ["Bột gạo", "Nước mắm", "Xì dầu", "Rau sống"],
         "phuong_phap_che_bien": "Bánh tiêu thường được hấp hoặc rán.",
         "cac_buoc_nau": [
             "Trộn bột gạo với nước mắm và xì dầu để tạo hỗn hợp bột.",
@@ -2225,13 +2050,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Bánh bèo là một món bánh truyền thống của người Việt Nam, có hương vị đặc trưng với sự kết hợp giữa bột gạo và nước mắm.",
         "vung_mien": "Bánh bèo phổ biến nhất ở miền Trung Việt Nam, đặc biệt là ở Đà Nẵng và Quảng Nam.",
-        "thanh_phan_chinh": [
-            "Bột gạo",
-            "Nước mắm",
-            "Tôm",
-            "Cá",
-            "Rau thơm"
-        ],
+        "thanh_phan_chinh": ["Bột gạo", "Nước mắm", "Tôm", "Cá", "Rau thơm"],
         "phuong_phap_che_bien": "Bánh bèo có thể được hấp, rán, luộc, nướng, kho hoặc xào.",
         "cac_buoc_nau": [
             "Ngâm bột gạo vào nước lạnh.",
@@ -2253,10 +2072,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Bánh bột lọc có hương vị đặc trưng của bột lọc và nhân thịt heo hoặc tôm, thường được hấp hoặc luộc.",
         "vung_mien": "Bánh bột lọc phổ biến nhất ở miền Trung, đặc biệt là tại tỉnh Quảng Nam.",
-        "thanh_phan_chinh": [
-            "Bột lọc",
-            "Thịt heo hoặc tôm"
-        ],
+        "thanh_phan_chinh": ["Bột lọc", "Thịt heo hoặc tôm"],
         "phuong_phap_che_bien": "Hấp, Luộc",
         "cac_buoc_nau": [
             "Bước 1: Ướp thịt heo hoặc tôm với gia vị và bột ngọt.",
@@ -2278,12 +2094,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Món bánh được làm từ bột gạo, thường được phục vụ nóng với nước mắm, tương ớt và các loại rau sống. Hương vị đặc trưng của bánh căn là sự kết hợp giữa vị béo của bột gạo và vị mặn của nước mắm.",
         "vung_mien": "Bánh căn là món ăn phổ biến ở miền Trung Việt Nam, đặc biệt là ở Đà Nẵng và Quảng Nam.",
-        "thanh_phan_chinh": [
-            "Bột gạo",
-            "Nước mắm",
-            "Tương ớt",
-            "Rau sống"
-        ],
+        "thanh_phan_chinh": ["Bột gạo", "Nước mắm", "Tương ớt", "Rau sống"],
         "phuong_phap_che_bien": "Rán",
         "cac_buoc_nau": [
             "Trộn bột gạo với nước ấm để tạo thành bột nhão",
@@ -2360,10 +2171,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Bánh dày (Bánh giầy) là một món bánh truyền thống của Việt Nam, thường được làm từ bột gạo và nước, có hương vị đặc trưng và mềm mại.",
         "vung_mien": "Bánh dày (Bánh giầy) phổ biến nhất tại khu vực Bắc Bộ, đặc biệt là tại các tỉnh miền Bắc.",
-        "thanh_phan_chinh": [
-            "Bột gạo",
-            "Nước"
-        ],
+        "thanh_phan_chinh": ["Bột gạo", "Nước"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Trộn bột gạo với nước để tạo thành hỗn hợp bột nhão.",
@@ -2411,12 +2219,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Món bánh truyền thống của Việt Nam, có nhân thịt lợn xay và trứng, thường được hấp và ăn kèm với nước mắm.",
         "vung_mien": "Bánh giò phổ biến nhất tại miền Bắc Việt Nam, đặc biệt là tại Hà Nội.",
-        "thanh_phan_chinh": [
-            "Thịt lợn xay",
-            "Trứng",
-            "Bột gạo",
-            "Nước mắm"
-        ],
+        "thanh_phan_chinh": ["Thịt lợn xay", "Trứng", "Bột gạo", "Nước mắm"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Trộn đều thịt lợn xay, trứng, bột gạo và nước mắm trong một bát lớn.",
@@ -2495,10 +2298,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Món bánh truyền thống của Việt Nam, được làm từ bột gạo nếp và nhân đậu xanh. Hương vị đặc trưng của bánh ít là vị ngọt nhẹ và vị béo của đậu xanh.",
         "vung_mien": "Bánh ít phổ biến nhất ở khu vực miền Bắc Việt Nam, đặc biệt là ở Hà Nội.",
-        "thanh_phan_chinh": [
-            "Bột gạo nếp",
-            "Đậu xanh"
-        ],
+        "thanh_phan_chinh": ["Bột gạo nếp", "Đậu xanh"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Chuẩn bị bột gạo nếp và đậu xanh",
@@ -2519,12 +2319,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Món bánh truyền thống của người Việt Nam, có hương vị đặc trưng từ hạt dẻ và mẻ.",
         "vung_mien": "Nơi phổ biến nhất là miền Bắc, đặc biệt là ở Hà Nội.",
-        "thanh_phan_chinh": [
-            "Hạt dẻ",
-            "Mẻ",
-            "Bột gạo",
-            "Dầu ăn"
-        ],
+        "thanh_phan_chinh": ["Hạt dẻ", "Mẻ", "Bột gạo", "Dầu ăn"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Trộn bột gạo với nước và mẻ để tạo hỗn hợp bột.",
@@ -2605,12 +2400,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Món ăn phổ biến của người Việt, có hương vị độc đáo từ bột mì, nước mắm, rau củ và thịt.",
         "vung_mien": "Phổ biến nhất tại miền Bắc và miền Nam Việt Nam.",
-        "thanh_phan_chinh": [
-            "Bột mì",
-            "Nước mắm",
-            "Rau củ",
-            "Thịt"
-        ],
+        "thanh_phan_chinh": ["Bột mì", "Nước mắm", "Rau củ", "Thịt"],
         "phuong_phap_che_bien": "Nướng",
         "cac_buoc_nau": [
             "Bước 1: Chuẩn bị nguyên liệu.",
@@ -2685,12 +2475,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Món bánh này có hương vị đặc trưng của các nguyên liệu như tôm hùm, thịt gà, trứng và rau củ được kết hợp một cách tinh tế.",
         "vung_mien": "Bánh hòn tai là một món ăn truyền thống của người Việt Nam, phổ biến nhất ở miền Trung, đặc biệt là ở Đà Nẵng và Quảng Nam.",
-        "thanh_phan_chinh": [
-            "Tôm hùm",
-            "Thịt gà",
-            "Trứng",
-            "Rau củ"
-        ],
+        "thanh_phan_chinh": ["Tôm hùm", "Thịt gà", "Trứng", "Rau củ"],
         "phuong_phap_che_bien": "Hấp là phương pháp chế biến phổ biến nhất cho bánh hòn tai, nhưng cũng có thể rán, luộc, nướng, kho hoặc xào.",
         "cac_buoc_nau": [
             "Bước 1: Chuẩn bị nguyên liệu gồm tôm hùm, thịt gà, trứng và rau củ.",
@@ -2743,12 +2528,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Bánh tét là loại bánh truyền thống của Việt Nam, đặc trưng bởi hương vị đậm đà, kết hợp giữa bột gạo và các loại thịt, trứng, và gia vị.",
         "vung_mien": "Bánh tét phổ biến nhất ở miền Nam Việt Nam, đặc biệt là ở tỉnh Tiền Giang, Đồng Tháp và An Giang.",
-        "thanh_phan_chinh": [
-            "Bột gạo",
-            "Thịt lợn",
-            "Trứng",
-            "Gia vị"
-        ],
+        "thanh_phan_chinh": ["Bột gạo", "Thịt lợn", "Trứng", "Gia vị"],
         "phuong_phap_che_bien": "Hấp, Rán, Luộc, Nướng, Kho, Xào",
         "cac_buoc_nau": [
             "Bước 1: Trộn bột gạo với nước và gia vị.",
@@ -2832,12 +2612,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Món bánh xèo có hương vị đặc trưng của bột gạo, thịt heo, tôm và rau củ. Khi ăn, bánh xèo có vị giòn, giòn rụm và thơm ngon.",
         "vung_mien": "Bánh xèo là món ăn phổ biến nhất tại miền Tây Nam Bộ, đặc biệt là ở tỉnh An Giang và tỉnh Tiền Giang.",
-        "thanh_phan_chinh": [
-            "Bột gạo",
-            "Thịt heo",
-            "Tôm",
-            "Rau củ"
-        ],
+        "thanh_phan_chinh": ["Bột gạo", "Thịt heo", "Tôm", "Rau củ"],
         "phuong_phap_che_bien": "Rán",
         "cac_buoc_nau": [
             "Bước 1: Trộn bột gạo với nước và để yên trong 30 phút.",
@@ -2886,13 +2661,7 @@
         "nhom": "Bánh mặn",
         "mo_ta": "Bánh phồng tôm là một loại bánh mặn được làm từ bột mì, nước, và tôm, có hương vị đặc trưng và giòn rụm.",
         "vung_mien": "Bánh phồng tôm phổ biến nhất ở miền Trung, đặc biệt là ở khu vực Quảng Nam.",
-        "thanh_phan_chinh": [
-            "Bột mì",
-            "Nước",
-            "Tôm",
-            "Muối",
-            "Bột ngọt"
-        ],
+        "thanh_phan_chinh": ["Bột mì", "Nước", "Tôm", "Muối", "Bột ngọt"],
         "phuong_phap_che_bien": "Bánh phồng tôm thường được rán lên cho giòn, nhưng cũng có thể được hấp hoặc luộc.",
         "cac_buoc_nau": [
             "Trộn bột mì, nước, muối, bột ngọt vào một bát lớn.",
@@ -2971,12 +2740,7 @@
         "nhom": "Bánh ngọt",
         "mo_ta": "Bánh chuối có hương vị đặc trưng từ chuối chín, kết hợp với các nguyên liệu khác như bột mì, đường, trứng, tạo nên một hương vị ngọt ngào và mềm mại.",
         "vung_mien": "Bánh chuối phổ biến nhất ở miền Nam Việt Nam, nơi có nhiều chuối chín tươi ngon.",
-        "thanh_phan_chinh": [
-            "Chuối chín",
-            "Bột mì",
-            "Đường",
-            "Trứng"
-        ],
+        "thanh_phan_chinh": ["Chuối chín", "Bột mì", "Đường", "Trứng"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Ướp chuối chín với đường, bột mì và trứng trong khoảng 30 phút.",
@@ -2997,12 +2761,7 @@
         "nhom": "Bánh ngọt",
         "mo_ta": "Bánh cốm có hương vị đặc trưng của cốm và gạo nếp, thường được thưởng thức trong mùa thu.",
         "vung_mien": "Bánh cốm phổ biến nhất tại Hà Nội và các tỉnh miền Bắc.",
-        "thanh_phan_chinh": [
-            "Cốm",
-            "Gạo nếp",
-            "Đậu phộng",
-            "Dầu mè"
-        ],
+        "thanh_phan_chinh": ["Cốm", "Gạo nếp", "Đậu phộng", "Dầu mè"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Rửa sạch cốm và gạo nếp.",
@@ -3189,13 +2948,7 @@
         "nhom": "Bánh ngọt",
         "mo_ta": "Bánh in có hương vị đặc trưng với vị ngọt nhẹ, mềm và dẻo. Đây là món bánh truyền thống của người Việt Nam được làm từ bột mì, đường, trứng và sữa.",
         "vung_mien": "Bánh in phổ biến tại các thành phố lớn như Hà Nội, TP.HCM và Đà Nẵng.",
-        "thanh_phan_chinh": [
-            "Bột mì",
-            "Đường",
-            "Trứng",
-            "Sữa",
-            "Bơ"
-        ],
+        "thanh_phan_chinh": ["Bột mì", "Đường", "Trứng", "Sữa", "Bơ"],
         "phuong_phap_che_bien": "Bánh in có thể được hấp, rán, lẩu, nướng, kho hoặc xào.",
         "cac_buoc_nau": [
             "Bước 1: Trộn bột mì, đường, trứng và sữa trong một cái bát lớn.",
@@ -3218,13 +2971,7 @@
         "nhom": "Bánh ngọt",
         "mo_ta": "Món bánh kẹp lá dứa có hương vị đặc trưng của lá dứa, vị ngọt nhẹ và mềm mại.",
         "vung_mien": "Bánh kẹp lá dứa phổ biến nhất ở miền Bắc, đặc biệt là tại Hà Nội.",
-        "thanh_phan_chinh": [
-            "Lá dứa",
-            "Bột mì",
-            "Bơ",
-            "Đường",
-            "Trứng gà"
-        ],
+        "thanh_phan_chinh": ["Lá dứa", "Bột mì", "Bơ", "Đường", "Trứng gà"],
         "phuong_phap_che_bien": "Nướng",
         "cac_buoc_nau": [
             "Trộn đều lá dứa, bột mì, bơ, đường và trứng gà để tạo hỗn hợp.",
@@ -3388,13 +3135,7 @@
         "nhom": "Bánh ngọt",
         "mo_ta": "Bánh pía là một loại bánh ngọt truyền thống của người Hoa tại Việt Nam, có hương vị đặc trưng với lớp vỏ giòn và nhân mềm. Bánh pía thường được làm từ bột mì, trứng, đường và các nguyên liệu khác.",
         "vung_mien": "Nơi phổ biến nhất của bánh pía tại Việt Nam là TP. HCM, Hà Nội và các tỉnh miền Nam.",
-        "thanh_phan_chinh": [
-            "Bột mì",
-            "Trứng",
-            "Đường",
-            "Bơ",
-            "Bột nở"
-        ],
+        "thanh_phan_chinh": ["Bột mì", "Trứng", "Đường", "Bơ", "Bột nở"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Trộn bột mì, bột nở, đường và bơ",
@@ -3416,12 +3157,7 @@
         "nhom": "Bánh ngọt",
         "mo_ta": "Bánh phu thê là một loại bánh truyền thống của Việt Nam, có hương vị đặc trưng và mềm mại. Nó thường được làm từ bột mì, đường, trứng và sữa.",
         "vung_mien": "Bánh phu thê phổ biến nhất ở miền Bắc Việt Nam, đặc biệt là ở Hà Nội.",
-        "thanh_phan_chinh": [
-            "Bột mì",
-            "Đường",
-            "Egg",
-            "Sữa"
-        ],
+        "thanh_phan_chinh": ["Bột mì", "Đường", "Egg", "Sữa"],
         "phuong_phap_che_bien": "Hấp",
         "cac_buoc_nau": [
             "Bước 1: Trộn bột mì, đường và trứng trong một bát lớn.",
@@ -3469,11 +3205,7 @@
         "nhom": "Bánh ngọt",
         "mo_ta": "Bánh rán ngọt là một loại bánh ngọt mềm, mịn, có hương vị đặc trưng của đường và sữa. Nó thường được phục vụ nóng hoặc nguội, tùy thuộc vào sở thích của từng người.",
         "vung_mien": "Bánh rán ngọt là một món ăn phổ biến ở nhiều vùng miền của Việt Nam, nhưng nó đặc biệt phổ biến ở miền Bắc.",
-        "thanh_phan_chinh": [
-            "Bột mì",
-            "Đường",
-            "Sữa"
-        ],
+        "thanh_phan_chinh": ["Bột mì", "Đường", "Sữa"],
         "phuong_phap_che_bien": "Bánh rán ngọt thường được làm bằng phương pháp hấp hoặc rán.",
         "cac_buoc_nau": [
             "Bước 1: Trộn bột mì, đường và sữa trong một bát sạch.",
@@ -3540,35 +3272,7 @@
             "chi_tiet": "Đặc điểm nhận dạng của bánh trôi là hình dạng tròn và có đường dây vừng đen trên bề mặt."
         }
     },
-    {
-        "ten_mon": "Bánh chay",
-        "nhom": "Bánh ngọt",
-        "mo_ta": "Bánh chay là một loại bánh ngọt truyền thống của Việt Nam, được làm từ bột mì, đường và các nguyên liệu khác. Món này có hương vị đặc trưng, nhẹ nhàng và mềm mại.",
-        "vung_mien": "Bánh chay phổ biến nhất tại miền Bắc Việt Nam, nơi đây có nhiều thương hiệu bánh chay nổi tiếng.",
-        "thanh_phan_chinh": [
-            "Bột mì",
-            "Đường",
-            "Sữa",
-            "Trứng",
-            "Bơ",
-            "Ngũ cốc",
-            "Vitamin"
-        ],
-        "phuong_phap_che_bien": "Nướng",
-        "cac_buoc_nau": [
-            "Bước 1: Chuẩn bị các nguyên liệu theo công thức.",
-            "Bước 2: Trộn đều các nguyên liệu và tạo hình bánh.",
-            "Bước 3: Nướng bánh trong lò nướng cho đến khi chín vàng."
-        ],
-        "cach_an": "Ăn bánh chay nóng hoặc nguội, có thể dùng kèm với nước chấm hoặc rau sống.",
-        "dac_diem_thi_giac": "Bánh chay có hình dạng tròn, màu vàng nhạt. Khi bày trí, bánh được đặt trên đĩa hoặc mẹt, có thể trang trí thêm với hoa quả hoặc rau sống.",
-        "calo_uoc_tinh": "Trung bình",
-        "cau_hoi_vqa": {
-            "nhan_dang": "Món này là bánh chay.",
-            "cach_lam": "Bánh chay được nấu bằng phương pháp nướng.",
-            "chi_tiet": "Đặc điểm nhận dạng đặc trưng nhất của bánh chay trên ảnh là hình dạng tròn và màu vàng nhạt."
-        }
-    },
+
     {
         "ten_mon": "Bánh trung thu",
         "nhom": "Bánh ngọt",
@@ -3632,11 +3336,7 @@
         "nhom": "Biến tấu (Các món mặn khác)",
         "mo_ta": "Món bò sốt vang là một biến tấu của các món mặn khác, có hương vị đặc trưng từ thịt bò và sốt vang. Món này thường được phục vụ nóng và được dùng kèm với cơm.",
         "vung_mien": "Miền Bắc",
-        "thanh_phan_chinh": [
-            "Thịt bò",
-            "Sốt vang",
-            "Rau củ"
-        ],
+        "thanh_phan_chinh": ["Thịt bò", "Sốt vang", "Rau củ"],
         "phuong_phap_che_bien": "Xào",
         "cac_buoc_nau": [
             "Bước 1: Ướp thịt bò với gia vị và sốt vang",
@@ -3838,14 +3538,7 @@
         "nhom": "Biến tấu (Các món mặn khác)",
         "mo_ta": "Món ốc luộc có hương vị đặc trưng của hải sản, với vị ngọt và béo của ốc, thường được phục vụ kèm với nước mắm pha hoặc nước tương.",
         "vung_mien": "Món ốc luộc phổ biến nhất tại các tỉnh ven biển như Quảng Ninh, Hải Phòng, Thanh Hóa và Đà Nẵng.",
-        "thanh_phan_chinh": [
-            "ốc",
-            "gừng",
-            "tỏi",
-            "hành lá",
-            "dấm",
-            "muối"
-        ],
+        "thanh_phan_chinh": ["ốc", "gừng", "tỏi", "hành lá", "dấm", "muối"],
         "phuong_phap_che_bien": "Luộc",
         "cac_buoc_nau": [
             "Rửa sạch ốc, ngâm trong nước muối pha dấm khoảng 30 phút.",
@@ -3923,12 +3616,7 @@
         "nhom": "Biến tấu (Các món mặn khác)",
         "mo_ta": "Món tiết canh là một món ăn truyền thống của người Việt Nam, đặc trưng bởi hương vị đậm đà và vị ngọt nhẹ. Nguyên liệu chính của món tiết canh bao gồm tiết lợn, trứng gà, và các loại rau thơm như hành lá, rau mùi.",
         "vung_mien": "Món tiết canh phổ biến nhất ở khu vực miền Bắc Việt Nam.",
-        "thanh_phan_chinh": [
-            "Tiết lợn",
-            "Trứng gà",
-            "Hành lá",
-            "Rau mùi"
-        ],
+        "thanh_phan_chinh": ["Tiết lợn", "Trứng gà", "Hành lá", "Rau mùi"],
         "phuong_phap_che_bien": "Món tiết canh được nấu bằng phương pháp hấp hoặc luộc.",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế nguyên liệu",
@@ -3977,10 +3665,7 @@
         "nhom": "Biến tấu (Các món mặn khác)",
         "mo_ta": "Món thịt chua có hương vị đặc trưng, vị chua chua, ngọt ngào, thường được ăn kèm với cơm trắng hoặc bánh mì.",
         "vung_mien": "Thịt chua là một món ăn phổ biến ở miền Bắc Việt Nam, nhất là ở Hà Nội và các tỉnh lân cận.",
-        "thanh_phan_chinh": [
-            "Thịt heo",
-            "Sấu"
-        ],
+        "thanh_phan_chinh": ["Thịt heo", "Sấu"],
         "phuong_phap_che_bien": "Hấp/Rán/Luộc/Nướng/Kho/Xào...",
         "cac_buoc_nau": [
             "Bước 1: Sơ chế thịt heo, rửa sạch và thái thành miếng nhỏ.",

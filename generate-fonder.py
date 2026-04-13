@@ -46,32 +46,36 @@ def create_food_folders():
         ten_mon = item.get("ten_mon")
         
         if ten_mon:
-            # 1. Xóa dấu tiếng Việt
+            # 1. Xử lý tên thư mục (không dấu, gạch ngang)
             clean_name = remove_vietnamese_accents(ten_mon)
-            
-            # 2. Chuyển thành chữ thường
             clean_name = clean_name.lower()
+            clean_name = re.sub(r'[^a-z0-9\s]', '', clean_name)
+            clean_name = re.sub(r'\s+', '-', clean_name).strip('-')
             
-            # 3. Thay khoảng trắng (và các ký tự lạ) bằng dấu gạch ngang
-            # Đồng thời loại bỏ các ký tự không hợp lệ cho folder
-            clean_name = re.sub(r'[^a-z0-9\s]', '', clean_name) # Xóa ký tự đặc biệt còn sót
-            clean_name = re.sub(r'\s+', '-', clean_name).strip('-') # Thay space bằng '-'
-            
-            path = OUTPUT_DIR / clean_name
+            folder_path = OUTPUT_DIR / clean_name
             
             try:
-                if not path.exists():
-                    os.makedirs(path)
-                    print(f"--- Đã tạo: {clean_name}")
+                # Tạo thư mục nếu chưa tồn tại
+                if not folder_path.exists():
+                    os.makedirs(folder_path)
+                    print(f"--- Đã tạo thư mục: {clean_name}")
                     count_success += 1
                 else:
-                    print(f"--- Đã tồn tại: {clean_name}")
+                    print(f"--- Thư mục đã tồn tại: {clean_name}")
                     count_exist += 1
+                
+                # 2. Tạo file text lưu tên tiếng Việt bên trong thư mục
+                # Tên file có thể đặt là 'original_name.txt' hoặc 'name.txt'
+                file_info_path = folder_path / "vietnamese_name.txt"
+                with open(file_info_path, 'w', encoding='utf-8') as f_info:
+                    f_info.write(ten_mon)
+                
             except Exception as e:
-                print(f"!!! Lỗi khi tạo {clean_name}: {e}")
+                print(f"!!! Lỗi khi xử lý {clean_name}: {e}")
 
     print("-" * 30)
-    print(f"Hoàn tất! Tạo mới: {count_success} | Đã tồn tại: {count_exist}")
+    print(f"Hoàn tất! Tạo/Cập nhật: {count_success + count_exist} thư mục.")
+    print(f"Mỗi thư mục đã có file 'vietnamese_name.txt' chứa tên gốc.")
 
 if __name__ == "__main__":
     create_food_folders()
