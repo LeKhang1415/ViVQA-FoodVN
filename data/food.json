@@ -1,0 +1,204 @@
+{
+    "danh_sach_mon_an_viet_nam": [
+        {
+            "nhom": "Bánh (Dạng sợi)",
+            "danh_sach": ["Bánh canh", "Bánh đa cua", "Bánh tằm cà ri"]
+        },
+        {
+            "nhom": "Bún",
+            "danh_sach": [
+                "Bún bò Huế",
+                "Bún bung",
+                "Bún cá",
+                "Bún chả",
+                "Bún măng vịt",
+                "Bún chả cá",
+                "Bún chạo tôm",
+                "Bún đậu mắm tôm",
+                "Bún mắm",
+                "Bún mọc",
+                "Bún ốc",
+                "Bún riêu cua",
+                "Bún thịt nướng",
+                "Bún thang"
+            ]
+        },
+        {
+            "nhom": "Mì, Hủ tiếu & Cao lầu",
+            "danh_sach": [
+                "Cao lầu",
+                "Hủ tiếu",
+                "Mì Quảng",
+                "Mì xào",
+                "Mì xào giòn"
+            ]
+        },
+        {
+            "nhom": "Miến",
+            "danh_sach": ["Miến lươn", "Miến trộn"]
+        },
+        {
+            "nhom": "Phở",
+            "danh_sach": ["Phở"]
+        },
+        {
+            "nhom": "Cơm",
+            "danh_sach": [
+                "Cơm bụi",
+                "Cơm cháy Ninh Bình",
+                "Cơm hến",
+                "Cơm gà Quảng Nam",
+                "Cơm lam",
+                "Cơm nắm",
+                "Cơm nếp",
+                "Cơm chiên",
+                "Cơm tấm",
+                "Cơm trắng",
+                "Cơm rượu"
+            ]
+        },
+        {
+            "nhom": "Món thường ngày (Món mặn, xào, canh)",
+            "danh_sach": [
+                "Cá kho",
+                "Cá khô (Khô cá)",
+                "Chả",
+                "Dồi",
+                "Dưa muối",
+                "Giò",
+                "Kho quẹt",
+                "Mắm chưng",
+                "Lòng non (Tràng)",
+                "Rau muống xào tỏi",
+                "Riêu (Canh chua)",
+                "Ruốc (Chà bông)",
+                "Thịt kho",
+                "Thịt kho Tàu"
+            ]
+        },
+        {
+            "nhom": "Xôi",
+            "danh_sach": [
+                "Xôi chiên",
+                "Xôi đỗ xanh (Xôi đậu xanh)",
+                "Xôi gà",
+                "Xôi gấc",
+                "Xôi lá cẩm",
+                "Xôi lạc (Xôi đậu phộng)",
+                "Xôi ngũ sắc",
+                "Xôi sắn",
+                "Xôi trắng",
+                "Xôi vò",
+                "Xôi xéo"
+            ]
+        },
+        {
+            "nhom": "Dạng lỏng (Cháo, Súp, Lẩu, Canh)",
+            "danh_sach": [
+                "Cháo lòng",
+                "Cháo trắng",
+                "Lẩu",
+                "Mướp đắng nhồi thịt (Canh khổ qua)",
+                "Ốc nấu chuối đậu",
+                "Súp cua",
+                "Súp yến",
+                "Bò kho"
+            ]
+        },
+        {
+            "nhom": "Món cuốn",
+            "danh_sach": [
+                "Bánh cuốn (Bánh ướt)",
+                "Bò bía",
+                "Nem rán (Chả giò)",
+                "Gỏi cá",
+                "Nem cuốn (Gỏi cuốn)",
+                "Nem chua"
+            ]
+        },
+        {
+            "nhom": "Bánh mặn",
+            "danh_sach": [
+                "Bánh bá trạng",
+                "Bánh bao",
+                "Bánh tiêu",
+                "Bánh bèo",
+                "Bánh bột lọc",
+                "Bánh căn",
+                "Bánh chưng",
+                "Bánh cống",
+                "Bánh dày (Bánh giầy)",
+                "Bánh đúc",
+                "Bánh giò",
+                "Bánh gối (Pa tê sô)",
+                "Bánh hỏi",
+                "Bánh ít",
+                "Bánh ít trần",
+                "Bánh khọt",
+                "Bánh khúc",
+                "Bánh mì",
+                "Bánh nậm",
+                "Bánh quai vạc",
+                "Bánh hòn tai",
+                "Bánh tẻ",
+                "Bánh tét",
+                "Bánh tôm Hồ Tây",
+                "Bánh tráng",
+                "Bánh xèo",
+                "Bột chiên",
+                "Bánh phồng tôm"
+            ]
+        },
+        {
+            "nhom": "Bánh ngọt",
+            "danh_sach": [
+                "Bánh bò",
+                "Bánh cáy",
+                "Bánh chuối",
+                "Bánh cốm",
+                "Bánh giầy đỗ",
+                "Bánh da lợn",
+                "Bánh đậu xanh",
+                "Bánh flan",
+                "Bánh gai",
+                "Bánh tro",
+                "Bánh in",
+                "Bánh kẹp lá dứa",
+                "Bánh khoai mì",
+                "Bánh khảo",
+                "Bánh lọt",
+                "Bánh mật",
+                "Bánh nhãn",
+                "Bánh pía",
+                "Bánh phu thê",
+                "Bánh rế",
+                "Bánh rán ngọt",
+                "Bánh tai heo",
+                "Bánh trôi",
+                "Bánh chay",
+                "Bánh trung thu"
+            ]
+        },
+        {
+            "nhom": "Biến tấu (Các món mặn khác)",
+            "danh_sach": [
+                "Bò bảy món",
+                "Bò sốt vang",
+                "Bò nướng lá lốt",
+                "Cá lóc nướng trui",
+                "Chả cá thát lát",
+                "Giả cầy",
+                "Mực khô (Khô mực)",
+                "Nộm sứa (Gỏi sứa)",
+                "Ốc luộc",
+                "Ốc bươu nhồi thịt",
+                "Quẩy",
+                "Tiết canh",
+                "Tiết luộc (Tiết hầm)",
+                "Thịt chua",
+                "Trứng vịt Bắc Thảo",
+                "Trứng vịt lộn (Hột vịt lộn)"
+            ]
+        }
+    ]
+}
