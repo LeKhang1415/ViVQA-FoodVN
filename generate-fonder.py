@@ -10,16 +10,10 @@ INPUT_JSON = DATA_DIR / "vietnamese_food_vqa_knowledge.json"
 OUTPUT_DIR = DATA_DIR / "images" 
 
 def remove_vietnamese_accents(text):
-    """
-    Hàm xóa dấu tiếng Việt và chuyển về ký tự thường
-    """
     if not text:
         return ""
-    # Chuẩn hóa về dạng Unicode tổ hợp
     text = unicodedata.normalize('NFD', text)
-    # Loại bỏ các ký tự dấu
     text = "".join(c for c in text if unicodedata.category(c) != 'Mn')
-    # Thay chữ đ/Đ
     text = text.replace('đ', 'd').replace('Đ', 'D')
     return text
 
@@ -46,16 +40,30 @@ def create_food_folders():
         ten_mon = item.get("ten_mon")
         
         if ten_mon:
-            # 1. Xử lý tên thư mục (không dấu, gạch ngang)
-            clean_name = remove_vietnamese_accents(ten_mon)
-            clean_name = clean_name.lower()
-            clean_name = re.sub(r'[^a-z0-9\s]', '', clean_name)
-            clean_name = re.sub(r'\s+', '-', clean_name).strip('-')
+            # --- PHẦN XỬ LÝ MỚI TẠI ĐÂY ---
             
+            # 1. Loại bỏ nội dung trong ngoặc đơn (bao gồm cả cặp ngoặc)
+            # Ví dụ: "Bánh trung thu (Bánh nướng & Bánh dẻo)" -> "Bánh trung thu "
+            clean_name = re.sub(r'\(.*?\)', '', ten_mon).strip()
+            
+            # 2. Xóa dấu tiếng Việt
+            clean_name = remove_vietnamese_accents(clean_name)
+            
+            # 3. Chuyển về chữ thường
+            clean_name = clean_name.lower()
+            
+            # 4. Loại bỏ các ký tự đặc biệt, chỉ giữ lại chữ cái và số
+            clean_name = re.sub(r'[^a-z0-9\s]', '', clean_name)
+            
+            # 5. Thay thế khoảng trắng bằng dấu gạch dưới (_) thay vì gạch ngang (-)
+            # Ví dụ: "banh trung thu" -> "banh_trung_thu"
+            clean_name = re.sub(r'\s+', '_', clean_name).strip('_')
+            
+            # ------------------------------
+
             folder_path = OUTPUT_DIR / clean_name
             
             try:
-                # Tạo thư mục nếu chưa tồn tại
                 if not folder_path.exists():
                     os.makedirs(folder_path)
                     print(f"--- Đã tạo thư mục: {clean_name}")
@@ -64,8 +72,7 @@ def create_food_folders():
                     print(f"--- Thư mục đã tồn tại: {clean_name}")
                     count_exist += 1
                 
-                # 2. Tạo file text lưu tên tiếng Việt bên trong thư mục
-                # Tên file có thể đặt là 'original_name.txt' hoặc 'name.txt'
+                # Lưu tên gốc vào file txt bên trong để đối chiếu sau này
                 file_info_path = folder_path / "vietnamese_name.txt"
                 with open(file_info_path, 'w', encoding='utf-8') as f_info:
                     f_info.write(ten_mon)
@@ -75,7 +82,6 @@ def create_food_folders():
 
     print("-" * 30)
     print(f"Hoàn tất! Tạo/Cập nhật: {count_success + count_exist} thư mục.")
-    print(f"Mỗi thư mục đã có file 'vietnamese_name.txt' chứa tên gốc.")
 
 if __name__ == "__main__":
     create_food_folders()
