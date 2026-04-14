@@ -7,14 +7,30 @@ DATA_DIR = Path(r"C:\Users\Admin\Desktop\ViVQA-Food\data")
 JSON_FILE = DATA_DIR / "vietnamese_food_vqa_knowledge_updated.json"
 IMAGE_ROOT = DATA_DIR / "images"
 MISSING_ROOT = DATA_DIR / "images_missing"
-# File lưu danh sách để crawl
 CRAWL_LIST_FILE = DATA_DIR / "missing_list.txt"
+READY_FOR_VQA_FILE = DATA_DIR / "food_knowledge_ready.json"
+
+def is_valid_image_folder(folder_path):
+    """Kiểm tra xem thư mục có chứa ít nhất 1 file ảnh hợp lệ hay không."""
+    if not folder_path.exists() or not folder_path.is_dir():
+        return False
+    
+    # Danh sách các đuôi file ảnh phổ biến
+    extensions = ("*.jpg", "*.jpeg", "*.png", "*.webp", "*.JPG", "*.PNG")
+    
+    for ext in extensions:
+        for img_file in folder_path.glob(ext):
+            # Kiểm tra file có thực sự tồn tại và có dung lượng > 0
+            if img_file.is_file() and img_file.stat().st_size > 0:
+                return True
+    return False
 
 def verify_and_prepare_crawl():
     if not JSON_FILE.exists():
         print(f"Lỗi: Không tìm thấy file JSON tại {JSON_FILE}")
         return
 
+    # Luôn đảm bảo folder missing tồn tại để crawl về sau
     if not MISSING_ROOT.exists():
         os.makedirs(MISSING_ROOT)
 
@@ -22,48 +38,50 @@ def verify_and_prepare_crawl():
         food_list = json.load(f)
 
     total_dishes = len(food_list)
-    missing_names = [] # Lưu tên tiếng Việt để crawl
+    missing_names = [] 
+    ready_food_items = []
     success_count = 0
 
     for item in food_list:
         ten_mon = item.get("ten_mon", "Không rõ tên")
         folder_name = item.get("image_folder")
-        if not folder_name: continue
+        if not folder_name:
+            continue
 
+        # CHỈ KIỂM TRA TRONG THƯ MỤC IMAGES GỐC
         original_path = IMAGE_ROOT / folder_name
-        missing_path = MISSING_ROOT / folder_name
-
-        # Kiểm tra xem món này đã có ảnh ở đâu chưa
-        has_images = False
-        for path in [original_path, missing_path]:
-            if path.exists() and any(path.glob("*.[jp][pn]*g")):
-                has_images = True
-                break
         
-        if has_images:
+        # Nếu tìm thấy ảnh hợp lệ trong folder chính
+        if is_valid_image_folder(original_path):
             success_count += 1
+            ready_food_items.append(item)
         else:
-            # Nếu chưa có ảnh, tạo folder trong missing (nếu chưa có)
+            # Nếu không có (hoặc folder rỗng), đưa vào danh sách cần crawl
+            missing_names.append(ten_mon)
+            
+            # Tạo sẵn folder trong missing_root để tool crawl tải về đúng chỗ
+            missing_path = MISSING_ROOT / folder_name
             if not missing_path.exists():
                 os.makedirs(missing_path)
-            # Thêm tên vào danh sách cần crawl
-            missing_names.append(ten_mon)
 
-    # Xuất danh sách ra file .txt
+    # 1. Xuất danh sách món thiếu ra file .txt
     with open(CRAWL_LIST_FILE, 'w', encoding='utf-8') as f:
         for name in missing_names:
             f.write(f"{name}\n")
 
+    # 2. Xuất JSON chỉ chứa món ĐÃ CÓ ẢNH trong folder 'images'
+    with open(READY_FOR_VQA_FILE, 'w', encoding='utf-8') as f:
+        json.dump(ready_food_items, f, ensure_ascii=False, indent=4)
+
     # Báo cáo
     print("=" * 60)
-    print(f"{'HOÀN TẤT CHUẨN BỊ DỮ LIỆU CRAWL':^60}")
+    print(f"{'KIỂM TRA ẢNH TRONG THƯ MỤC GỐC':^60}")
     print("=" * 60)
     print(f"- Tổng số món:             {total_dishes:>3}")
-    print(f"- Đã có ảnh:               {success_count:>3}")
-    print(f"- Cần crawl thêm:          {len(missing_names):>3}")
-    print(f"- File danh sách đã tạo:   {CRAWL_LIST_FILE.name}")
+    print(f"- Đã có ảnh tại 'images':  {success_count:>3}")
+    print(f"- Chưa có ảnh:             {len(missing_names):>3}")
     print("-" * 60)
-    print(f"LƯU Ý: Hãy dùng file '{CRAWL_LIST_FILE.name}' để nạp vào tool crawl.")
+    print(f"File JSON sẵn sàng: {READY_FOR_VQA_FILE.name}")
     print("=" * 60)
 
 if __name__ == "__main__":

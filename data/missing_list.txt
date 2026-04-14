@@ -40,9 +40,6 @@ Bánh nậm
 Bánh quai vạc (Phan Thiết)
 Bánh tẻ (Bánh răng bừa)
 Bột chiên
-Bánh cáy Thái Bình
-Bánh cốm Hà Nội
-Bánh flan (Kem Caramel)
 Bánh tro (Bánh gio)
 Bánh khoai mì nướng
 Bánh khảo
@@ -63,9 +60,6 @@ Cơm nắm
 Xôi gà
 Lẩu (Tổng quát)
 Gỏi cá (Gỏi cá thính)
-Bánh bá trạng
-Bánh gối (Hà Nội)
-Bánh hỏi
 Bánh ít trần
 Bánh tráng (Thành phẩm)
 Bánh phồng tôm
@@ -74,6 +68,5 @@ Mực khô nướng
 Ốc luộc mắm gừng
 Bánh chay
 Bánh mật
-Bánh đậu xanh (Hải Dương)
 Bánh nhãn
 Bánh in

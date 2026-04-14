@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Cấu hình đường dẫn
 DATA_DIR = Path(r"C:\Users\Admin\Desktop\ViVQA-Food\data")
-INPUT_JSON = DATA_DIR / "cleaned.json" 
+INPUT_JSON = DATA_DIR / "vivqa_food_dataset_final.json" 
 OUTPUT_CSV = DATA_DIR / "vietnam_food.csv"
 
 def json_to_csv(json_file, csv_file):
