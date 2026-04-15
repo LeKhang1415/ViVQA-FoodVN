@@ -43,7 +43,7 @@ def generate_knowledge_qa(dish_data, max_retries=5):
     YÊU CẦU:
     1. Nguyên liệu: Hỏi về thành phần (1-10 từ).
     2. Nguồn gốc: Hỏi về vùng miền (1-10 từ).
-    3. Cách nấu: Hỏi về một bước nấu (tối đa 25 từ).
+    3. Cách nấu: Yêu cầu trình bày TOÀN BỘ quy trình hoặc cách làm ra món ăn. Tuyệt đối KHÔNG hỏi lẻ tẻ về "Bước 1", "Bước 2". (tối đa 25 từ).
     4. Trải nghiệm: Hỏi về cách thưởng thức (tối đa 25 từ).
 
     ĐA DẠNG HÓA: Dùng nhiều cách hỏi khác nhau (Hãy kể, Có phải, Bạn biết không...)

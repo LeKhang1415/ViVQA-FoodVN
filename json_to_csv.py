@@ -1,57 +1,81 @@
 import json
-import csv
-from pathlib import Path
+import pandas as pd
+import re
 
-# Cấu hình đường dẫn
-DATA_DIR = Path(r"C:\Users\Admin\Desktop\ViVQA-Food\data")
-INPUT_JSON = DATA_DIR / "vivqa_food_dataset_final.json" 
-OUTPUT_CSV = DATA_DIR / "vietnam_food.csv"
+# Đường dẫn file JSON đầu vào và CSV đầu ra 
+INPUT_JSON = 'data/foodvqa_knowledge_dataset.json'
+OUTPUT_CSV = 'data/foodvqa_knowledge_dataset.csv'
 
-def json_to_csv(json_file, csv_file):
-    # Đọc file JSON gốc
-    with open(json_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    # --- Sắp xếp dữ liệu theo nhóm ---
-    # Sử dụng hàm sort với key là giá trị của trường 'nhom'
-    data.sort(key=lambda x: x.get('nhom', ''))
-        
-    # Lấy tiêu đề cột từ các keys của món ăn đầu tiên
-    if not data:
-        print("Dữ liệu trống.")
+def remove_text_in_parentheses(text):
+    """
+    Hàm dùng biểu thức chính quy (regex) để tìm và xóa toàn bộ ngoặc đơn ()
+    kèm theo nội dung bên trong nó, đồng thời xóa luôn khoảng trắng thừa.
+    """
+    if not isinstance(text, str):
+        return text
+    # Xóa nội dung trong ngoặc tròn ( )
+    cleaned_text = re.sub(r'\s*\([^)]*\)', '', text)
+    return cleaned_text.strip()
+
+def clean_quotes(text):
+    """
+    Hàm lột bỏ dấu ngoặc kép (" ") hoặc dấu nháy đơn (' ') bọc ngoài cùng câu.
+    """
+    if not isinstance(text, str):
+        return text
+    # Lột bỏ khoảng trắng, sau đó lột dấu ngoặc kép, dấu nháy đơn ở 2 đầu
+    return text.strip(' "\'')
+
+def main():
+    print("Đang đọc file JSON...")
+    try:
+        with open(INPUT_JSON, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"Lỗi: Không tìm thấy tệp {INPUT_JSON}")
         return
-    headers = list(data[0].keys())
 
-    # Mở file CSV để ghi (dùng utf-8-sig để không lỗi font Excel)
-    with open(csv_file, 'w', encoding='utf-8-sig', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=headers, extrasaction='ignore')
-        writer.writeheader()
+    csv_data = []
+
+    # Lặp qua từng món ăn
+    for item in data:
+        img_path = item.get("image_path", "")
         
-        for item in data:
-            row_data = {}
-            for key, value in item.items():
-                # Trường hợp 1: Value là một danh sách (list)
-                if isinstance(value, list):
-                    temp_list = []
-                    for element in value:
-                        if isinstance(element, (dict, list)):
-                            temp_list.append(json.dumps(element, ensure_ascii=False))
-                        else:
-                            temp_list.append(str(element).strip())
-                    row_data[key] = ", ".join(temp_list)
+        # Xóa chữ trong ngoặc của tên món
+        food_name = remove_text_in_parentheses(item.get("food_name", ""))
+        food_name = clean_quotes(food_name)
+        
+        # Lặp qua các cặp câu hỏi
+        for pair in item.get("vqa_pairs", []):
+            # 1. Xóa nội dung trong ngoặc đơn ( )
+            question = remove_text_in_parentheses(pair.get("question", ""))
+            answer = remove_text_in_parentheses(pair.get("answer", ""))
+            
+            # 2. Xóa dấu ngoặc kép " " bọc bên ngoài
+            question = clean_quotes(question)
+            answer = clean_quotes(answer)
+            
+            # 3. Lọc bỏ dữ liệu rỗng
+            if question == "" or answer == "":
+                continue
                 
-                # Trường hợp 2: Value là một dictionary
-                elif isinstance(value, dict):
-                    row_data[key] = json.dumps(value, ensure_ascii=False)
-                
-                # Trường hợp 3: Value là chuỗi hoặc số bình thường
-                else:
-                    row_data[key] = value
-                    
-            writer.writerow(row_data)
+            csv_data.append({
+                "Image_Path": img_path,
+                "Food_Name": food_name,
+                "Question_Group": pair.get("nhom", ""),
+                "Question": question,
+                "Answer": answer
+            })
 
-    print(f"Đã sắp xếp theo nhóm và xuất file thành công ra: {csv_file}")
+    # Chuyển đổi thành dạng bảng bằng Pandas
+    df = pd.DataFrame(csv_data)
+    
+    # Lưu ra file CSV
+    df.to_csv(OUTPUT_CSV, index=False, encoding='utf-8-sig')
+    
+    print("\n--- HOÀN TẤT ---")
+    print(f"Số câu hỏi giữ lại và làm sạch thành công: {len(df)}")
+    print(f"File CSV sạch 100% đã được lưu tại: {OUTPUT_CSV}")
 
-# Thực thi hàm
 if __name__ == "__main__":
-    json_to_csv(INPUT_JSON, OUTPUT_CSV)
+    main()
